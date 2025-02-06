@@ -34,7 +34,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
     <LegacyPublishPropertiesPageEnabled>true</LegacyPublishPropertiesPageEnabled>
     <IncludeIisSettings>true</IncludeIisSettings>
   </PropertyGroup>
@@ -2202,9 +2202,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="html\main\index.html" />
     <Content Include="html\main\mainpage.css" />
-    <Content Include="html\main\products.html" />
+    <Content Include="html\main\Hyalolite.html" />
+    <Content Include="html\main\Montarias.html" />
     <Content Include="img\0.png" />
     <Content Include="img\1.jpg" />
     <Content Include="img\10.png" />
