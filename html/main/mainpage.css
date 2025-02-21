@@ -297,6 +297,12 @@ ul {
     max-height: calc(100vh - 100px);
 
 }
+@media screen and (max-width: 767px) {
+    .imgslider {
+        height: calc(100vh - 200px);
+    }
+    
+}
 
 /* End slider */
 a.button>i {
@@ -499,6 +505,12 @@ a.button>i {
     margin-left: 10px;
     font-weight: 900;
     transition: var(--main-transision);
+}
+@media screen and (max-width: 767px) {
+    .footer-main-product div:hover{
+        margin-left: 0;
+    }
+    
 }
 .footer-main-product div:hover::before{
 

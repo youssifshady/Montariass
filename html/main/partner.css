@@ -1,4 +1,4 @@
-﻿:root{
+﻿﻿:root{
     --grid-color-background: #F8F8F8;
 
 }
@@ -27,6 +27,7 @@
 .All-partners-container{
     margin: 20px;
     justify-content: center;
+    display: flex;
 }
 .partner-container{
     margin: 10px;
@@ -45,7 +46,13 @@
     .card-grid {
         margin: 5px 0;
     }
-    
+    .All-partners-container{
+        flex-direction: column;
+        
+    }
+    .image-grid{
+        margin: 0 auto;
+    }
 }
 .text-grid :hover{
     cursor: text;

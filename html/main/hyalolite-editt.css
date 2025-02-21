@@ -30,6 +30,8 @@ body {
 
     #home-section {
         margin-top: 90px;
+        margin-bottom: 90px;
+        padding-bottom: 90px;
     }
 
     #home-section.fa {
@@ -38,21 +40,39 @@ body {
         border-radius: 5px;
         padding: 5px;
     }
+.home-inner {
+    margin: 0;
+    height: 100vh;
+}
 
-#explore-section.fa {
+.hejab-section {
+    margin: 0;
+    height: 90vh;
+}
+/* Start Body*/
+
+.body-img{
+    height: 90vh;
+}
+
+@media (max-width: 767px) {
+    .body-img{
+        display: none;
+    }
+}
+
+
+/* End Body*/
+
+/* End hyalolite */
+
+
+/* #explore-section.fa {
     color: #fff;
     background-color: #333;
     border-radius: 5px;
     padding: 5px;
-}
-
-.home-inner {
-    padding-top: 150px;
-}
-
-
-/* End hyalolite */
-
+} */
 
 
 /* start animation */

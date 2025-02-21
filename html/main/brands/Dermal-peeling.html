@@ -82,51 +82,81 @@
 
     <!-- Background section -->
 
-    <div class="under-constraction-background">
+    <div class="commimg-soon-background">
     
-        <img src="../../../img/montaias_pic/under-constraction.gif"
-         class="under-constraction-img">
+        <img src="../../../img/montaias_pic/coming-soon.jpg"
+         class="commimg-soon">
     </div>
+    
+    
     <!-- Background section -->
 
 
+      <!-- Start Footer-->
 
-    <!-- Start Footer-->
-
-    <div id="Footer" class="Footer">
+      <div id="Footer" class="Footer">
         <div class="footer-container ">
-            
+
             <div class="col-lg-3 footer-content">
-                <img src="../../../img/montaias_pic/montarias-logo-white.png" class="logo-footer" >
-                <p >© 2021 Montarias</p>
+                <img src="../../../img/montaias_pic/montarias-logo-white.png" class="logo-footer">
             </div>
             <div class="col-lg-3 footer-content">
-                
-                <div class="d-flex">
-                    <i class="bi bi-arrow-right footer-icon"></i>
-                    <p>Hyalolite</p>
+
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-caret-right-fill footer-icon"></i>
+                        <p>Hyalolite</p>
+
+                    </div>
                 </div>
-                <div class="d-flex">
-                    <i class="bi bi-arrow-right footer-icon"></i>
-                    <p>Exosomes</p>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-caret-right-fill footer-icon"></i>
+                        <p>Exosomes</p>
+                    </div>
+
                 </div>
-                <div class="d-flex">
-                    <i class="bi bi-arrow-right footer-icon"></i>
-                    <p>Ammonia</p>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-caret-right-fill footer-icon"></i>
+                        <p>Ammonia</p>
+                    </div>
+
                 </div>
-                <div class="d-flex">
-                    <i class="bi bi-arrow-right footer-icon"></i>
-                    <p>pipeline</p>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-caret-right-fill footer-icon"></i>
+                        <p>pipeline</p>
+                    </div>
+
                 </div>
-                
-                
+
+
             </div>
             <div class="col-lg-3 footer-content">
-                <p >© 2021 Montarias. All Rights Reserved.</p>
-                <p >© 2021 Montarias. All Rights Reserved.</p>
-                <p >© 2021 Montarias. All Rights Reserved.</p>
-                <p >© 2021 Montarias. All Rights Reserved.</p>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-facebook footer-icon"></i>
+                        <p>DEVARTLab</p>
+                    </div>
+
+                </div>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-envelope-fill footer-icon"></i>
+                        <p>moamen.mahmoud89@gmail.com</p>
+                    </div>
+
+                </div>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-telephone-fill footer-icon"></i>
+                        <p>01114114747</p>
+                    </div>
+
+                </div>
             </div>
+
         </div>
     </div>
 
@@ -134,10 +164,24 @@
 
     <!-- End Footer-->
 
-  
+    <script>
 
-    <script src="../../Scripts/jquery-3.7.1.min.js"></script>
-    <script src="../../Scripts/bootstrap.bundle.min.js"></script>
+        // hide logo when scroll down
+        var lastScrolTop = 0;
+        navbar = document.getElementById("header");
+        window.addEventListener("scroll", function () {
+            var scrollTop = window.pageYOffset ||
+                document.documentElement.scrollTop;
+            if (scrollTop > lastScrolTop) {
+                navbar.style.top = "-100px";
+            } else {
+                navbar.style.top = "0";
+            }
+            lastScrolTop = scrollTop;
+        });
+
+
+    </script>
 </body>
 
 </html>
