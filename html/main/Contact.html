@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+
+
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../bootstrap-icons-1.11.3/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <link href="mainpage.css" rel="stylesheet" />
+    <link href="contact.css" rel="stylesheet" />
+
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+
+</head>
+
+<body class="default-font">
+    <!-- Start Header -->
+
+    <div class="header" id="header">
+
+        <div class="container ">
+            <a href="index.html" class="logo"><img src="../../img/montaias_pic/montarias-logo.png" class="logo"></a>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#Brands" id="Brand_menu_text">Brands</a>
+
+                    <!-- Start mega menu -->
+
+                    <div class="mega-menu">
+                        <div class="image">
+                            <img class="image" src="../../img/montaias_pic/494.png">
+                        </div>
+
+                        <ul class="links">
+                            <li>
+                                <a href="Hyalolite-edited.html"><i class="bi bi-capsule-pill">&MediumSpace;
+                                        Hyalolite</i></a>
+                            </li>
+                            <li>
+                                <a href="../main/brands/Exosomes.html"><i class="bi bi-capsule-pill">&MediumSpace;
+                                        Exosomes</i></a>
+                            </li>
+                            <li>
+                                <a href="../main/brands/Ammoria.html"><i class="bi bi-capsule-pill">&MediumSpace;
+                                        Ammoria</i></a>
+                            </li>
+                            <li>
+                                <a href="../main/brands/Monderm.html"><i class="bi bi-capsule-pill">&MediumSpace;
+                                        Monderm</i></a>
+                            </li>
+
+                        </ul>
+                        <ul class="links">
+                            <li>
+                                <a href="../main/brands/Mesotherapy.html"><i class="bi bi-capsule-pill">&MediumSpace;
+                                        Mesotherapy</i></a>
+                            </li>
+                            <li>
+                                <a href="../main/brands/Skin-Booster.html"><i class="bi bi-capsule-pill">&MediumSpace;
+                                        Skin booster</i></a>
+                            </li>
+                            <li>
+                                <a href="../main/brands/Aesthetic-Threads.html"><i
+                                        class="bi bi-capsule-pill">&MediumSpace; Aesthetic Threads</i></a>
+                            </li>
+                            <li>
+                                <a href="../main/brands/Dermal-peeling.html"><i class="bi bi-capsule-pill">&MediumSpace;
+                                        Dermal peeling</i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <!-- End mega menu -->
+                </li>
+                <li><a href="Partners.html">Partners</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- End Header -->
+
+
+
+    <!-- Start Contact -->
+
+    <div class="Slider py-2" id="contact">
+        <h1 class="Page-title mt-4">Contact Us</h1>
+
+            <!--Start Into-->
+            <div class="container">
+                <p class="contact-intro" 
+                style="font-size: 18px; font-weight: bold;text-transform: uppercase;">
+                Need to talk to us? We're listening.
+            </p>
+            </div>
+            <div class="container">
+                <p class="contact-intro" style="font-size: 10px; font-weight: bold;">REPORT AN ADVERSE EVENT.</p>
+            </div>
+            <div class="container">
+                <p class="contact-intro">Markets worldwide may have specific processes in place to handle reports of adverse events.
+
+                    To report an adverse event, personal health concerns or product quality issue, please ask your healthcare provider (ex: doctor or pharmacist)
+                     for more information and advice about adverse events or contact your local health authority.
+                    </p>
+            </div>
+            <!--End Into-->
+
+
+            <!-- start Form -->
+
+        <div class="container contact-ALL">
+
+            <div class="row-contact-container">
+
+                 
+                <div class="contact-container">
+
+                    <p class="label-style">First Name <span class="label-star">*</span></p>
+                    <input class="input-stlye" type="text" id="first-name" >
+                   
+                </div>
+                 
+                <div class="contact-container">
+
+                    <p class="label-style">Last Name <span class="label-star">*</span></p>
+                    <input class="input-stlye" type="text"  id="last-name" >
+                   
+                </div>
+                 
+                
+
+            </div>
+
+            <div class="row-contact-container ">
+
+                 
+                <div class="contact-container ">
+
+                    <p class="label-style">Telephone Number </p>
+                    <input class="input-stlye" type="number"  id="Telephone-number" >
+                   
+                </div>
+                 
+                <div class="contact-container ">
+
+                    <p class="label-style">Email Address <span class="label-star">*</span></p>
+                    <input class="input-stlye" type="email" id="email-address" >
+                   
+                </div>
+                 
+                
+
+            </div>
+
+            <div class="row-contact-container">
+                 
+                <div class="contact-container">
+
+                    <p class="label-style">Location <span class="label-star">*</span></p>
+                
+                    <input class="wide-input-stlye " type="text"  id="location" >
+                    
+                   
+                </div>
+                 
+                
+
+            </div>
+            <div class="row-contact-container">
+                 
+                <div class="contact-container">
+
+                    <p class="label-style">What is your enquiry about? <span class="label-star">*</span></p>
+                
+                    <textarea class="wide-input-stlye " rows="5" cols="60" aria-required="true" id="user-words" > </textarea>
+                    
+                <div>
+                    <button class="btn-dark btn send-style" onclick="sendEmail()">send</button>
+                
+                
+                </div>
+                 
+                
+
+            </div>
+            
+            
+          
+            
+
+          
+
+        </div>
+
+   <!--End Form -->
+   
+   
+   
+        </div>
+    <!-- End Contact -->
+
+
+
+    <!-- Start Footer-->
+
+    <div id="Footer" class="Footer">
+        <div class="footer-container ">
+
+            <div class="col-lg-3 footer-content">
+                <img src="../../img/montaias_pic/montarias-logo-white.png" class="logo-footer">
+            </div>
+            <div class="col-lg-3 footer-content">
+
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-caret-right-fill footer-icon"></i>
+                        <p>Hyalolite</p>
+
+                    </div>
+                </div>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-caret-right-fill footer-icon"></i>
+                        <p>Exosomes</p>
+                    </div>
+
+                </div>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-caret-right-fill footer-icon"></i>
+                        <p>Ammonia</p>
+                    </div>
+
+                </div>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-caret-right-fill footer-icon"></i>
+                        <p>pipeline</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-lg-3 footer-content">
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-facebook footer-icon"></i>
+                        <p>DEVARTLab</p>
+                    </div>
+
+                </div>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-envelope-fill footer-icon"></i>
+                        <p>moamen.mahmoud89@gmail.com</p>
+                    </div>
+
+                </div>
+                <div class="d-flex footer-main-product">
+                    <div>
+                        <i class="bi bi-telephone-fill footer-icon"></i>
+                        <p>01114114747</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- End Footer-->
+
+    <script>
+        var lastScrolTop = 0;
+        navbar = document.getElementById("header");
+        window.addEventListener("scroll", function () {
+            var scrollTop = window.pageXOffset || document.documentElement.scrollTop;
+            if (scrollTop > lastScrolTop) {
+                navbar.style.top = "-100px";
+            } else {
+                navbar.style.top = "0";
+            }
+            lastScrolTop = scrollTop;
+        });
+
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "sender@email_address.com",
+                Password: "Enter your password",
+                // To: 'moamen.mahmoud89@gmail.com',
+                To: 'youssifshady2004@gmail.com',
+                From: document.getElementById("#email-address").value,
+                Subject: "Sending Email using javascript",
+                Body: document.getElementById("#user-words").value,
+            })
+                .then(function (message) {
+                    alert("mail sent successfully");
+                });
+        }
+
+    </script>
+
+    <script src="../../Scripts/jquery-3.7.1.min.js"></script>
+    <script src="../../Scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
