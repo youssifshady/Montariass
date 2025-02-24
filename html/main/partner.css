@@ -29,7 +29,7 @@
     justify-content: center;
     display: flex;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (orientation: portrait){
     .All-partners-container{
         margin: 10px;
         display: block;
@@ -41,7 +41,7 @@
     padding: 65px 0px;
     background-color: var(--grid-color-background);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (orientation: portrait){
     .partner-container{
         margin: 10px auto;
         padding: 5px;
@@ -53,18 +53,18 @@
     height: 15vh;
     width: 40vh;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (orientation: portrait){
     .image-grid{
         margin: 0;
         height: 15vh;
-        width: 25vh;
+        width: 35vh;
     }
     
 }
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (orientation: portrait){
     .card-grid {
         margin: 5px 0;
     }
