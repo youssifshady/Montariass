@@ -29,7 +29,7 @@
     font-family: Hamada;
     padding: 10px 150px;
 }
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .contact-intro{
         padding: 10px 20px;
     }
@@ -106,7 +106,7 @@
 
 
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .row-contact-container {
         padding: 0;
         display: block;
