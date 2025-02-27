@@ -302,7 +302,7 @@ ul {
 }
 @media only screen and (max-width: 767px) {
     .imgslider {
-        height: calc(100vh - 200px);
+        height: calc(100vh - 300px);
     }
     
 }

@@ -1,10 +1,19 @@
 ﻿
 /* Start hyalolite */
+:root{
+    --grid-color-background: #F8F8F8;
 
-
+}
+@font-face {
+    font-family: hamada-title;
+    src: url(../../montserrat-font/MontserratMedium-nRxlJ.ttf);
+    font-family: Hamada;
+    src: url(../../montserrat-font/MontserratLight-6YemM.otf);
+}
 body {
     background-color: white;
-    color: white;
+    color: black;
+    font-family: Hamada;
 }
 
 .navbar {
@@ -28,27 +37,118 @@ body {
         
     }
 
-    #home-section {
-        margin-top: 90px;
+    .product-container{
+        padding: 50px;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 
-    #home-section.fa {
-        color: #008ed6;
-        background-color: white;
-        border-radius: 5px;
-        padding: 5px;
+    /*Start Filters*/
+    .filters{
+        width: 200px;
+        padding-top: 10px;
+    }
+    .filter-row{
+        display: flex;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+    .filter-titel{
+        text-align: left;
+        color: black;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        margin: 5px 10px;
+        text-transform: uppercase;
+    }
+    .filter-icon{
+        margin-left: auto;
+        align-items: center;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
-#explore-section.fa {
-    color: #fff;
-    background-color: #333;
-    border-radius: 5px;
-    padding: 5px;
+    /*End Filters*/
+
+
+    /* Start content*/
+
+    .product-content {
+        padding: 0 50px;
+        text-align: center;
+        color: black;
+    }
+
+    .bar-row{
+        margin: 20px 0;
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .product-row{
+        margin-bottom: 30px;
+    }
+    .product-box{
+        width: 400px;
+        height: 550px;
+        text-align: center;
+        background-color: var(--grid-color-background);
+        font-size: 15px;
+        padding: 30px;
+        margin: 0 20px;
+    }
+    .product-img{
+        width: 250px;
+        height: 300px;
+    }
+    .product-text{
+        margin-top: 20px;
+        text-align: left;
+        
+    }
+    .layer1{
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .layer2{
+        font-size: 13px;
+        font-weight: 500;
+        margin: 5px 0;
+
+    }
+    .layer3{
+        font-size: 11px;
+        font-weight: 300;
+        margin: 10px 0;
+        color: grey;
+    }
+
+    .view-more-style{
+        border: 1px solid black;
+        background-color: var(--grid-color-background);
+        font-size: 10px;
+        font-weight: 300;
+        color: black;
+        padding: 12px;
+        text-align: center;
+        width: 200px;
+        border-radius: 0;
+        margin-top: 30px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+
+.hidden-object{
+    opacity: 0;
 }
 
-.home-inner {
-    padding-top: 150px;
-}
+    /* End content*/
+
 
 
 /* End hyalolite */
