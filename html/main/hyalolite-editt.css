@@ -46,7 +46,7 @@ body {
 
     /*Start Filters*/
     .filters{
-        width: 200px;
+        width: 230px;
         padding-top: 10px;
     }
     .filter-row{
@@ -68,6 +68,10 @@ body {
         align-items: center;
         margin-top: auto;
         margin-bottom: auto;
+    }
+
+    .filter-content{
+        margin-right: auto;
     }
 
     /*End Filters*/
