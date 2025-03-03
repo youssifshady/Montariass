@@ -2,6 +2,7 @@
 /* Start hyalolite */
 :root{
     --grid-color-background: #F8F8F8;
+    --grid-color-darkk-blue: rgb(1, 37, 77);
 
 }
 @font-face {
@@ -41,13 +42,28 @@ body {
         padding: 50px;
         text-align: center;
         justify-content: center;
+        display: flex;
         margin: 0 auto;
     }
+    @media screen and (max-width: 768px){
+        .product-container{
+            flex-direction: column;
+        }
+        
+    }
+
 
     /*Start Filters*/
     .filters{
         width: 230px;
         padding-top: 10px;
+        
+    }
+    @media screen and (max-width: 768px){
+        .filters{
+            margin: 0 auto;
+        }
+        
     }
     .filter-row{
         display: flex;
@@ -58,20 +74,29 @@ body {
         text-align: left;
         color: black;
         font-size: 10px;
-        font-weight: 600;
+        font-weight: 700;
         letter-spacing: 4px;
         margin: 5px 10px;
         text-transform: uppercase;
     }
     .filter-icon{
+        font-size: 10px;
         margin-left: auto;
         align-items: center;
         margin-top: auto;
         margin-bottom: auto;
     }
+    
+    .filter-icon :hover{
+    top: -5%;
+    animation: up-only 0.5s linear forwards;
+    }
 
     .filter-content{
         margin-right: auto;
+        font-weight: 500;
+        color: var(--grid-color-darkk-blue);
+        font-size: 14px;
     }
 
     /*End Filters*/
@@ -94,6 +119,12 @@ body {
     .product-row{
         margin-bottom: 30px;
     }
+    @media screen and (max-width: 768px){
+        .product-row{
+            margin: 0;
+        }
+        
+    }
     .product-box{
         width: 400px;
         height: 550px;
@@ -103,9 +134,27 @@ body {
         padding: 30px;
         margin: 0 20px;
     }
+    @media screen and (max-width: 768px){
+        .product-box{
+            height: 450px;
+            margin-top: 20px;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
+        
+    }
     .product-img{
         width: 250px;
         height: 300px;
+    }
+    @media screen and (max-width: 768px){
+        .product-img{
+            margin: 0 auto;
+            width: 150px;
+            height: 200px;
+        }
+        
     }
     .product-text{
         margin-top: 20px;
