@@ -136,7 +136,6 @@ body {
     }
     @media only screen and (max-width: 768px){
         .product-box{
-            height: 450px;
             margin-top: 20px;
             align-items: center;
             text-align: center;
@@ -195,6 +194,11 @@ body {
         text-transform: uppercase;
     }
 
+    @media only screen and (max-width: 768px){
+        .view-more-style{
+            width: 150px;
+        }
+    }
 
 .hidden-object{
     opacity: 0;
