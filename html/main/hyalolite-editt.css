@@ -196,7 +196,8 @@ body {
 
     @media only screen and (max-width: 768px){
         .view-more-style{
-            width: 150px;
+            width: 130px;
+            margin: 0 auto;
         }
     }
 
