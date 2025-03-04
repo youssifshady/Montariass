@@ -15,6 +15,7 @@
     <link href="../brands/default.css" rel="stylesheet" />
     <link href="../mainpage.css" rel="stylesheet" />
     <link href="../../../Content/Site.css" rel="stylesheet" />
+    <link href="../../../html/main/hyalolite-editt.css" rel="stylesheet" />
 
 </head>
 
@@ -80,15 +81,132 @@
     </div>
 
     <!-- End Header -->
+ <!-- Start Product -->
 
-    <!-- Background section -->
 
-    <div class="under-constraction-background">
-    
-        <img src="../../../img/montaias_pic/under-constraction.gif"
-         class="under-constraction-img">
+ <div class="container Slider">
+
+    <div class="d-flex product-container">
+
+            <!-- start filters -->
+            <div class="filters">
+
+                <div class=" filter-row"  data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1"> 
+                    <h5 class="filter-titel">
+                        Category </h2>
+                        <span class="filter-icon"><i class="bi bi-chevron-down"></i></span>
+                </div>
+
+                <ul class="list-group collapse" id="collapseExample1">
+                    <li class="filter-content mt-2">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      personal use
+                    </li>
+                    <li class="filter-content mt-2">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      professional use
+                    </li>
+                    
+                  </ul>
+
+                <hr>
+                <div class=" filter-row"  data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2"> 
+                    <h5 class="filter-titel">
+                        Indication </h2>
+                        <span class="filter-icon"><i class="bi bi-chevron-down"></i></span>
+                </div>
+
+                <ul class="list-group collapse" id="collapseExample2">
+                    <li class="filter-content mt-2">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      personal use
+                    </li>
+                    <li class="filter-content mt-2">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      professional use
+                    </li>
+                    
+                  </ul>
+                <hr>
+
+                <div class="filter-row" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3" > 
+                    <h5 class="filter-titel" >Dose  </h2>
+                        <span class="filter-icon "><i class="bi bi-chevron-down"></i></span>
+                    </div>
+
+                <ul class="list-group collapse" id="collapseExample3">
+                    <li class="filter-content mt-2">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      personal use
+                    </li>
+                    <li class="filter-content mt-2">
+                      <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                      professional use
+                    </li>
+                    
+                  </ul>
+
+
+
+            </div>
+            <!-- End filters -->
+
+        <!-- start products -->
+        <div class="product-content">
+
+            <!-- Bar text -->
+            <div class="row bar-row">
+
+
+                <div class="col-lg-3 ">
+                    1 results
+                </div>
+                
+            </div>
+            <!-- row 1 -->
+            <div class="row product-row">
+
+
+                <div class="col-lg-3 product-box">
+                    <!-- product1 -->
+                    <img class="product-img"  src="../../../img/Brands/Ammoria/497.png">
+                    <div class="product-text">
+                    
+                        <p class="layer1">
+                            Rejuvenating Cream</p>
+                        <p class="layer2">hamada rah el madrasa</p>
+                        <p class="layer3">50ml</p>
+                    </div>
+                    <button class="btn btn-dark view-more-style">View Details</button>
+
+                </div>
+                <div class="col-lg-3 product-box hidden-object">
+                    <!-- product2 -->
+                    <img class="product-img"  src="../../../img/Ammoria/497.png">
+                    <div class="product-text">
+                    
+                        <p class="layer1">
+                            Rejuvenating Cream</p>
+                        <p class="layer2">hamada rah el madrasa</p>
+                        <p class="layer3">50ml</p>
+                    </div>
+                    <button class="btn btn-dark view-more-style d-none">View Details</button>
+
+                </div>
+
+                
+            </div>
+
+            
+
+        </div>
+        <!-- End products -->
+
     </div>
-    <!-- Background section -->
+</div>
+
+
+<!-- ENd Product -->
 
 
 
@@ -164,9 +282,25 @@
     <!-- End Footer-->
 
   
+    <script>
+        var lastScrolTop = 0;
+        navbar = document.getElementById("header");
+        window.addEventListener("scroll", function () {
+            var scrollTop = window.pageXOffset || document.documentElement.scrollTop;
+            if (scrollTop > lastScrolTop) {
+                navbar.style.top = "-100px";
+            } else {
+                navbar.style.top = "0";
+            }
+            lastScrolTop = scrollTop;
+        });
 
-    <script src="../../Scripts/jquery-3.7.1.min.js"></script>
-    <script src="../../Scripts/bootstrap.bundle.min.js"></script>
+
+    </script>
+
+
+    <script src="../../../Scripts/jquery-3.7.1.min.js"></script>
+    <script src="../../../Scripts/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -31,6 +31,9 @@ body {
     font-family: "MontserratBlack", serif;
 }
 
+.background-white {
+    background-color: white;
+}
 .navbar {
     /*background-color: aquamarine !important;*/
     opacity: 0.8;
@@ -297,9 +300,9 @@ ul {
     max-height: calc(100vh - 100px);
 
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px)  {
     .imgslider {
-        height: calc(100vh - 200px);
+        height: calc(40vh);
     }
     
 }
