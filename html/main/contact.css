@@ -1,4 +1,4 @@
-﻿﻿:root{
+:root{
     --grid-color-background: #F8F8F8;
 
 }
@@ -28,6 +28,12 @@
     font-weight: 600;
     font-family: Hamada;
     padding: 10px 150px;
+}
+@media only screen and (max-width: 767px) {
+    .contact-intro{
+        padding: 10px 20px;
+    }
+    
 }
 
 /* Start Form */
@@ -100,7 +106,7 @@
 
 
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .row-contact-container {
         padding: 0;
         display: block;

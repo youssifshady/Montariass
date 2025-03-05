@@ -1,3 +1,4 @@
+
 ﻿:root {
     /* --main-color: #2196f3; */
     --main-color: #0066b9;
@@ -29,6 +30,11 @@ body {
     background-color: white;
     /* font-family: "Cairo", serif; */
     font-family: "MontserratBlack", serif;
+}
+
+
+.background-white {
+    background-color: white;
 }
 
 .navbar {
@@ -284,7 +290,9 @@ ul {
     margin-top: calc(100px + 80px + 1px);
     /* margin-top: 0; */
 }
-@media (max-width: 767px) {
+
+@media only screen and (max-width: 767px) {
+
     .Slider{
         margin-top: calc(73px + 40px);
     }
@@ -297,9 +305,10 @@ ul {
     max-height: calc(100vh - 100px);
 
 }
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px)  {
     .imgslider {
-        height: calc(100vh - 200px);
+        height: calc(40vh);
+
     }
     
 }
@@ -406,7 +415,8 @@ a.button>i {
     height: 40vh;
 }
 
-@media (max-width: 767px) {
+
+@media only screen and (max-width: 767px) {
     .card-grid {
         margin: 5px 0;
     }
@@ -440,7 +450,9 @@ a.button>i {
     width: fit-content;
     margin: 20px auto;
 }
-@media screen and (max-width: 767px) {
+
+@media only screen and (max-width: 767px) {
+
     .image-pdf {
         display: none;
     }
@@ -489,7 +501,8 @@ a.button>i {
     flex-wrap: wrap;
     gap: 5px;
 }
-@media (max-width: 767px) {
+
+@media only screen and (max-width: 767px) {
     .footer-content {
         padding: 5px;
         margin: 0 auto;
@@ -506,7 +519,7 @@ a.button>i {
     font-weight: 900;
     transition: var(--main-transision);
 }
-@media screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .footer-main-product div:hover{
         margin-left: 0;
     }
@@ -585,5 +598,3 @@ a.button>i {
     }
 
 }
-
-/* end animation */
