@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿:root{
     --grid-color-background: #F8F8F8;
 
@@ -198,4 +199,206 @@
 
 }
 
+=======
+﻿:root{
+    --grid-color-background: #F8F8F8;
+
+}
+
+@font-face {
+    font-family: Hamada-title;
+    src: url(../../montserrat-font/MontserratMedium-nRxlJ.ttf);
+    font-family: Hamada;
+    src: url(../../montserrat-font/MontserratLight-6YemM.otf);
+}
+
+.Page-title{
+    font-size: 35px;
+    padding: 50px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Hamada-title;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contact-intro{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Hamada;
+    padding: 10px 150px;
+}
+@media only screen and (max-width: 767px) {
+    .contact-intro{
+        padding: 10px 20px;
+    }
+    
+}
+
+/* Start Form */
+
+.contact-ALL{
+    padding: 5px;
+
+}
+
+.row-contact-container{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin:  10px 0;
+    justify-content: center;
+}
+.contact-container{
+
+    margin: 0 5px;
+    
+}
+.label-style{
+    display: block;
+    line-height: 13px;
+    font-family: "UniversLTW", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #464646;
+    margin-bottom: 7px;
+    left: 0;
+}
+.label-star{
+    color: red; 
+    font-size: large;
+}
+.input-stlye{
+    border-radius: 0;
+    border: 1px solid black;
+    left: 0;
+    width: 300px;
+    display: table-cell;
+    padding: 11px 14px;
+    font-size: 15px;
+}
+.wide-input-stlye{
+    border-radius: 0;
+    border: 1px solid black;
+    left: 0;
+    width: 610px;
+    display: table-cell;
+    padding: 11px 14px;
+    font-size: 15px;
+    
+}
+
+.send-style{
+    background-color: white;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: black;
+    padding: 12px;
+    text-align: center;
+    width: 100px;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .row-contact-container {
+        padding: 0;
+        display: block;
+    }
+    .contact-container{
+        margin: 20px;
+    }
+    .wide-input-stlye{
+        width: 100%;
+    }
+    .send-style{
+        margin-top: 30px;
+    }
+    
+}
+
+/*End Form*/
+
+
+.text-grid :hover{
+    cursor: text;
+    
+}
+
+/* End grid */
+
+
+
+
+
+
+
+
+
+/* start animation */
+
+@keyframes up-only{
+
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: -10px;
+    }
+}
+@keyframes up-an-dowm {
+
+    0%,
+    100% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+}
+
+@keyframes left-move {
+    50% {
+        left: 0px;
+        width: 12px;
+        height: 12px;
+    }
+
+    100% {
+        left: 0px;
+        border-radius: 0%;
+        width: 100%;
+        height: 100%;
+
+    }
+
+}
+
+@keyframes right-move {
+    50% {
+        right: 0px;
+        width: 12px;
+        height: 12px;
+    }
+
+    100% {
+        right: 0px;
+        border-radius: 0%;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+>>>>>>> ea3ae663c5ee51260b485e968d9d6bc3a419408b
 /* end animation */
