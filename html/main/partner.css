@@ -1,4 +1,4 @@
-:root{
+﻿:root{
     --grid-color-background: #F8F8F8;
 
 }
@@ -70,7 +70,6 @@
         margin: 5px 0;
     }
     
-
 }
 .text-grid :hover{
     cursor: text;

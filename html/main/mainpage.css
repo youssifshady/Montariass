@@ -1,4 +1,3 @@
-
 ﻿:root {
     /* --main-color: #2196f3; */
     --main-color: #0066b9;
@@ -32,11 +31,9 @@ body {
     font-family: "MontserratBlack", serif;
 }
 
-
 .background-white {
     background-color: white;
 }
-
 .navbar {
     /*background-color: aquamarine !important;*/
     opacity: 0.8;
@@ -290,9 +287,7 @@ ul {
     margin-top: calc(100px + 80px + 1px);
     /* margin-top: 0; */
 }
-
 @media only screen and (max-width: 767px) {
-
     .Slider{
         margin-top: calc(73px + 40px);
     }
@@ -308,7 +303,6 @@ ul {
 @media only screen and (max-width: 767px)  {
     .imgslider {
         height: calc(40vh);
-
     }
     
 }
@@ -415,7 +409,6 @@ a.button>i {
     height: 40vh;
 }
 
-
 @media only screen and (max-width: 767px) {
     .card-grid {
         margin: 5px 0;
@@ -450,9 +443,7 @@ a.button>i {
     width: fit-content;
     margin: 20px auto;
 }
-
 @media only screen and (max-width: 767px) {
-
     .image-pdf {
         display: none;
     }
@@ -501,7 +492,6 @@ a.button>i {
     flex-wrap: wrap;
     gap: 5px;
 }
-
 @media only screen and (max-width: 767px) {
     .footer-content {
         padding: 5px;
@@ -598,3 +588,5 @@ a.button>i {
     }
 
 }
+
+/* end animation */

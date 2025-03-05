@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: Hamada-title;
     src: url(../../montserrat-font/MontserratMedium-nRxlJ.ttf);
@@ -85,7 +84,6 @@
     .about-text{
         
         max-width: 100vw;
-
     }
     
 }
@@ -201,6 +199,5 @@
     }
 
 }
-
 
 /* end animation */
